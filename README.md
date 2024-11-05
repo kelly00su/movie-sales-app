@@ -91,12 +91,6 @@ In Homecontroller (path: app/http/controllers/HomeController.php) there is a hig
    php artisan serve
    ```
 
-7. **Compile the assets:**
-
-   ```sh
-   npm run dev
-   ```
-
 ### Usage
 
 1. **Access the application:**
@@ -106,17 +100,16 @@ In Homecontroller (path: app/http/controllers/HomeController.php) there is a hig
 2. **Calculate Highest Sales for a Given Day**
     - The home page has two components that allow you to calculate the highest theater sales and highest movie sales for a given day.
 
-3. **Manage Records:**
+3. **View Analytics:**
+
+   - Navigate to the analytics page to view total sales, top-selling movies, and top-selling theaters.
+   - Use the interactive charts to visualize sales data. These charts will automatically update whenever new movies, sales, or theaters are added.
+4. **Manage Records:**
 
    - Navigate to the admin dashboard to manage theaters, movies, and sales.
    - Use the forms to add new records.
    - Use the edit buttons to update existing records.
    - Use the delete buttons to remove records.
-
-4. **View Analytics:**
-
-   - Navigate to the analytics page to view total sales, top-selling movies, and top-selling theaters.
-   - Use the interactive charts to visualize sales data. These charts will automatically update whenever new movies, sales, or theaters are added.
 
 ## Explaination of Extension
 
