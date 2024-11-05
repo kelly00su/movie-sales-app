@@ -46,17 +46,14 @@ Note: The following tables are auto-created by Laravel after running certain Art
 
 The highestTheaterSales.py script is a Python program that connects to the `database.sqlite` SQLite database and retrieves the theater with the highest sales for a user-inputted date. 
 
-1. **Execute the script using Python:**
+- **Execute the script using Python:**
     Please make sure you are using Python version 3.6 or above.
     ```sh
     python3 --version
-    ```
-
-    ```sh
     python3 highestTheaterSales.py
     ```
 
-2. **Enter the Date:**
+- **Enter the Date:**
 
    When prompted, enter the date in the format `MM/DD/YYYY`.
 
